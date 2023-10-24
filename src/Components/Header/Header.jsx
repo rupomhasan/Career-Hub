@@ -7,17 +7,17 @@ const Header = () => {
   const links = (
     <>
       <li>
-        <NavLink>Home</NavLink>
+        <NavLink to='/'>Home</NavLink>
       </li>
  
       <li>
-        <NavLink>Statistics</NavLink>
+        <NavLink to="/statistics">Statistics</NavLink>
       </li>
       <li>
-        <NavLink>Job Listing</NavLink>
+        <NavLink to='/job'>AppliedJObs</NavLink>
       </li>
       <li>
-        <NavLink>Blog</NavLink>
+        <NavLink to='/blog'>Blog</NavLink>
       </li>
     </>
   );
